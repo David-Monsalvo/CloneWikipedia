@@ -1,0 +1,179 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+    width: 100%;
+    margin-top: 53px;
+    height: 60px;
+
+}
+
+header nav .container-image {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav .text-logo {
+    margin: 5px;
+}
+
+main {
+    margin-top: 25px;
+    text-align: center;
+   
+}
+
+main .container-hero-capsule
+{
+    width: 100%;
+    height: 321px;
+}
+
+main .container-hero{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 320px;
+}
+
+main div .container-image {
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png');
+    width: 200px;
+    height: auto;
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+
+/* STYLOS QUE SE REPITEN */
+main .container-hero .style-repeat p{
+    margin: 4px 0px 0px;
+    color: #0a0a0a;
+}
+main .container-hero .style-repeat a{
+    text-decoration: none;
+}
+main .container-hero .style-repeat strong{
+   
+    color: #36c;
+}
+main .container-hero .style-repeat{
+    width:155px;
+    height: 47px;
+    position: absolute;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PSEUDOCÓDIGOS */
+main .container-hero .style-repeat:hover{
+    background-color: #b3a9a963;
+    text-decoration: none;
+}
+
+
+/* CAPSULAS DE LINKS */
+main .container-hero .capsule-one{
+    top: 0;
+    right: 53%;
+}
+main .container-hero .capsule-two{
+    top: 0;
+    left: 53%;
+}
+
+main .container-hero .capsule-three{
+    top: 20%;
+    right: 57%;
+}
+
+main .container-hero .capsule-four{
+    top: 20%;
+    left: 57%;
+}
+
+main .container-hero .capsule-five{
+    top: 40%;
+    left: 59%;
+}
+
+main .container-hero .capsule-six{
+    top: 40%;
+    right: 59%;
+}
+
+main .container-hero .capsule-seven{
+    top: 60%;
+    right: 57%;
+}
+
+main .container-hero .capsule-eight{
+    top: 60%;
+    left: 57%;
+}
+
+main .container-hero .capsule-nine{
+    top: 80%;
+    right: 53%;
+}
+main .container-hero .capsule-ten{
+    top: 80%;
+    left: 53%;
+}
+
+main .main-input{
+    width: 460px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+   
+}
+
+main .main-input-container{
+    width: 456px;
+    border-radius: 10px;
+    border:2px solid #c7c9ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    margin-top: 35px;
+    border-width: thin;
+}
+main .main-input input{
+    width: 335px;
+    height: 35px;
+    margin-left: 3px;
+    border:none;
+    outline: none;
+}
+
+main .main-input select
+{
+    border:none;
+    outline: none;
+}
+
+main .main-input a{
+
+    background-color: #36c;
+    width: 65px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 10px;
+
+}
