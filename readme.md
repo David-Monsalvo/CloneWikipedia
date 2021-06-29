@@ -1,1 +1,1 @@
-#Proyecto Clonación de google.
+Proyecto de Clonación de Wikipedia, de manera educativa.
