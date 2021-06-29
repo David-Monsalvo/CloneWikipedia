@@ -45,7 +45,7 @@ main .container-hero{
 }
 
 main div .container-image {
-    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png');
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png');
     width: 200px;
     height: auto;
     background-size: contain;
@@ -82,6 +82,14 @@ main .container-hero .style-repeat:hover{
     text-decoration: none;
 }
 
+main .main-input-container:hover{
+    border:2px solid #36c;
+    border-width: thin;
+}
+main .main-translator-container:hover{
+
+    border: 1px solid #36c; 
+}
 
 /* CAPSULAS DE LINKS */
 main .container-hero .capsule-one{
@@ -176,4 +184,61 @@ main .main-input a{
     border-bottom-right-radius: 10px;
     margin-left: 10px;
 
+}
+
+main .main-translator{
+
+    width: 265px;
+    height: 35px;
+    display: flex;
+    margin: 0 auto;
+}
+
+main .main-translator-container{
+    display: flex;
+    width: 264px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c7c9ce;
+    border-radius: 10px;
+    color: #36c;
+    font-weight: bold;
+    cursor: pointer;
+}
+ main .text-translator{
+     font-size: 14px;
+     margin: 0px 14px;
+ }
+
+ main .icon-translator{
+     margin-top: 5px;
+ }
+ main .icon-arrow{
+    margin-top: 5px;
+}
+main .main-translator-container::before{
+
+    content: "";
+    width: 90px;
+    height: 1.8px;
+    background-color: #c7c9ce;
+    z-index: -1;
+    position: absolute;
+    right: 58%;
+}
+main .main-translator-container::after{
+
+    content: "";
+    width: 90px;
+    height: 1.8px;
+    background-color: #c7c9ce;
+    z-index: -1;
+    position: absolute;
+    left: 58%;
+}
+hr{
+   border-width: thin;
+    height: 0;
+    border-bottom: 1px solid #c8ccd1;
+    margin-top: 40px;
 }
